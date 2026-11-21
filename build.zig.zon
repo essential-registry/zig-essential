@@ -1,0 +1,16 @@
+.{
+    .name = .essential,
+    .version = "0.1.0",
+    // Changing the fingerprint has security and trust implications. Generate a new one
+    // for your own project: delete this line and run `zig build`, which prints a fresh value.
+    .fingerprint = 0xea206bb4b7bb3968,
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{},
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "README.md",
+        "LICENSE",
+    },
+}
